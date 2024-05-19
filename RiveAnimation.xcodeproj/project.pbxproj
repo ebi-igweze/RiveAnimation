@@ -58,6 +58,8 @@
 		818B679F2BF868070057AE3F /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B679E2BF868070057AE3F /* CourseView.swift */; };
 		818B67A12BF871940057AE3F /* CourseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B67A02BF871940057AE3F /* CourseSectionView.swift */; };
 		818B67A32BF8790B0057AE3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B67A22BF8790B0057AE3F /* HomeView.swift */; };
+		818B67A52BF964880057AE3F /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B67A42BF964880057AE3F /* SideMenuView.swift */; };
+		818B67A72BFA6ABD0057AE3F /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B67A62BFA6ABD0057AE3F /* MenuRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +115,8 @@
 		818B679E2BF868070057AE3F /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		818B67A02BF871940057AE3F /* CourseSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionView.swift; sourceTree = "<group>"; };
 		818B67A22BF8790B0057AE3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		818B67A42BF964880057AE3F /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		818B67A62BFA6ABD0057AE3F /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 				81535B272BED433300FE5E74 /* Info.plist */,
 				81535AC12BDEFD9100FE5E74 /* RiveAnimationApp.swift */,
 				81535AC32BDEFD9100FE5E74 /* ContentView.swift */,
+				818B67A42BF964880057AE3F /* SideMenuView.swift */,
 				81535B322BF14DD700FE5E74 /* TabBarView.swift */,
 				818B67A22BF8790B0057AE3F /* HomeView.swift */,
 				81535B302BEFDF0B00FE5E74 /* Views */,
@@ -250,6 +255,7 @@
 				81535B2A2BEDB05E00FE5E74 /* SignInView.swift */,
 				818B679E2BF868070057AE3F /* CourseView.swift */,
 				818B67A02BF871940057AE3F /* CourseSectionView.swift */,
+				818B67A62BFA6ABD0057AE3F /* MenuRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -392,10 +398,12 @@
 				81535B332BF14DD700FE5E74 /* TabBarView.swift in Sources */,
 				818B679D2BF867440057AE3F /* CourseSection.swift in Sources */,
 				81535B2D2BEDD88400FE5E74 /* CustomTextField.swift in Sources */,
+				818B67A52BF964880057AE3F /* SideMenuView.swift in Sources */,
 				81535AC42BDEFD9100FE5E74 /* ContentView.swift in Sources */,
 				81535AC22BDEFD9100FE5E74 /* RiveAnimationApp.swift in Sources */,
 				81535B2B2BEDB05E00FE5E74 /* SignInView.swift in Sources */,
 				818B679F2BF868070057AE3F /* CourseView.swift in Sources */,
+				818B67A72BFA6ABD0057AE3F /* MenuRowView.swift in Sources */,
 				81535B2F2BEDDC7500FE5E74 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
