@@ -154,7 +154,6 @@
 				81535AC12BDEFD9100FE5E74 /* RiveAnimationApp.swift */,
 				81535AC32BDEFD9100FE5E74 /* ContentView.swift */,
 				818B67A42BF964880057AE3F /* SideMenuView.swift */,
-				81535B322BF14DD700FE5E74 /* TabBarView.swift */,
 				818B67A22BF8790B0057AE3F /* HomeView.swift */,
 				81535B302BEFDF0B00FE5E74 /* Views */,
 				81535B312BEFDF3600FE5E74 /* Styles */,
@@ -251,6 +250,7 @@
 		81535B302BEFDF0B00FE5E74 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				81535B322BF14DD700FE5E74 /* TabBarView.swift */,
 				81535AD42BE3CF6900FE5E74 /* OnboardingView.swift */,
 				81535B2A2BEDB05E00FE5E74 /* SignInView.swift */,
 				818B679E2BF868070057AE3F /* CourseView.swift */,

@@ -15,6 +15,7 @@ struct OnboardingView: View {
     let purchaseFootNote = "Purchase inclues 30+ courses, 240+ premium tutorials, 120+ hours of videos, source files and certificates."
     
     @State var showModal: Bool = false
+    @Binding var showOnBoarding: Bool
     
     var body: some View {
         ZStack {
@@ -55,6 +56,27 @@ struct OnboardingView: View {
                     )
                     .zIndex(1.0)
             }
+            
+            Button(
+                action: {
+                    withAnimation(.spring) {
+                        showOnBoarding = false
+                    }
+                },
+                label: {
+                    Image(systemName: "xmark")
+                        .frame(width: 36, height: 36)
+                        .background(.black)
+                        .foregroundColor(.white)
+                        .mask(Circle())
+                    .shadow(color: .black.opacity(0.5), radius: 10, x: 0, y: 10)
+                }
+            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+            .padding()
+            .offset(y: 80)
+            
+            
         }
     }
     
@@ -119,5 +141,5 @@ struct OnboardingView: View {
 }
 
 #Preview {
-    OnboardingView()
+    OnboardingView(showOnBoarding: .constant(true))
 }
